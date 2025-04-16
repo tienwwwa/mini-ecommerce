@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+@layer button{
+    .btn{
+        @apply  px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600
+    }
+    .btn-remove{
+        @apply  px-4 py-2  bg-red-500 text-white rounded-xl hover:bg-red-600
+    }
+}

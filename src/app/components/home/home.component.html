@@ -1,0 +1,5 @@
+<div class="grid grid-cols-4  gap-5 mt-20">
+    @for (product of products(); track $index) {
+    <app-product [product]="product" (addToCartEvent)="increment($event)" />
+    }
+</div>

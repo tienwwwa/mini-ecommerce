@@ -5,7 +5,8 @@
   "projects": {
     "E-commerce": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
